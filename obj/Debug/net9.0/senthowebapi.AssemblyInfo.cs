@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("senthowebapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b18c0f024c4217214bdd691a23f5ba1eaed0aa39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71bea7904ce557f9060ec6fb6cdfef831bdb9d34")]
 [assembly: System.Reflection.AssemblyProductAttribute("senthowebapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("senthowebapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
