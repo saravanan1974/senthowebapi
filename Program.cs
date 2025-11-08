@@ -25,7 +25,6 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "senthowebapi", Version = "v1" });
 
-    // JWT in Swagger UI
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -53,13 +52,6 @@ var jwtIssuer   = builder.Configuration["Jwt:Issuer"];
 var jwtAudience = builder.Configuration["Jwt:Audience"];
 var jwtKey      = builder.Configuration["Jwt:Key"];
 
-if (string.IsNullOrWhiteSpace(jwtIssuer) ||
-    string.IsNullOrWhiteSpace(jwtAudience) ||
-    string.IsNullOrWhiteSpace(jwtKey))
-{
-    Console.WriteLine("⚠️  Missing Jwt:Issuer/Audience/Key. Set them in appsettings.json or environment variables.");
-}
-
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -72,7 +64,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidIssuer              = jwtIssuer,
             ValidAudience            = jwtAudience,
             IssuerSigningKey         = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey ?? "")),
-            ClockSkew                = TimeSpan.Zero // exact expiry, no grace
+            ClockSkew                = TimeSpan.Zero
         };
     });
 
@@ -87,7 +79,7 @@ if (app.Environment.IsDevelopment() || builder.Configuration.GetValue<bool>("Ena
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "senthowebapi v1");
-        c.RoutePrefix = string.Empty; // Swagger at "/"
+        c.RoutePrefix = string.Empty;
     });
 }
 

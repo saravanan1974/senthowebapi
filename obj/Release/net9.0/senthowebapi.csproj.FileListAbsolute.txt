@@ -94,3 +94,9 @@ E:\senthowebapi\senthowebapi\obj\Release\net9.0\refint\senthowebapi.dll
 E:\senthowebapi\senthowebapi\obj\Release\net9.0\senthowebapi.pdb
 E:\senthowebapi\senthowebapi\obj\Release\net9.0\senthowebapi.genruntimeconfig.cache
 E:\senthowebapi\senthowebapi\obj\Release\net9.0\ref\senthowebapi.dll
+E:\senthowebapi\senthowebapi\bin\Release\net9.0\publish\publish\web.config
+E:\senthowebapi\senthowebapi\bin\Release\net9.0\publish\publish\appsettings.Development.json
+E:\senthowebapi\senthowebapi\bin\Release\net9.0\publish\publish\appsettings.json
+E:\senthowebapi\senthowebapi\bin\Release\net9.0\publish\publish\senthowebapi.deps.json
+E:\senthowebapi\senthowebapi\bin\Release\net9.0\publish\publish\senthowebapi.runtimeconfig.json
+E:\senthowebapi\senthowebapi\bin\Release\net9.0\publish\publish\senthowebapi.staticwebassets.endpoints.json

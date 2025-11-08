@@ -1,9 +1,15 @@
 E:\senthowebapi\senthowebapi\publish\senthowebapi.exe
+E:\senthowebapi\senthowebapi\publish\publish\publish\web.config
 E:\senthowebapi\senthowebapi\publish\publish\web.config
 E:\senthowebapi\senthowebapi\publish\appsettings.Development.json
 E:\senthowebapi\senthowebapi\publish\appsettings.json
 E:\senthowebapi\senthowebapi\publish\publish\appsettings.Development.json
 E:\senthowebapi\senthowebapi\publish\publish\appsettings.json
+E:\senthowebapi\senthowebapi\publish\publish\publish\appsettings.Development.json
+E:\senthowebapi\senthowebapi\publish\publish\publish\appsettings.json
+E:\senthowebapi\senthowebapi\publish\publish\publish\senthowebapi.deps.json
+E:\senthowebapi\senthowebapi\publish\publish\publish\senthowebapi.runtimeconfig.json
+E:\senthowebapi\senthowebapi\publish\publish\publish\senthowebapi.staticwebassets.endpoints.json
 E:\senthowebapi\senthowebapi\publish\publish\senthowebapi.deps.json
 E:\senthowebapi\senthowebapi\publish\publish\senthowebapi.runtimeconfig.json
 E:\senthowebapi\senthowebapi\publish\publish\senthowebapi.staticwebassets.endpoints.json
